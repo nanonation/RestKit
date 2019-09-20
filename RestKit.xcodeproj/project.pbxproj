@@ -2073,7 +2073,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = RestKit;
 			};
 			buildConfigurationList = 25160D1014564E810060A5C5 /* Build configuration list for PBXProject "RestKit" */;
@@ -2081,6 +2081,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 25160D0B14564E810060A5C5;
