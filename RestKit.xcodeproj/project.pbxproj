@@ -2075,6 +2075,12 @@
 				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = RestKit;
+				TargetAttributes = {
+					25160E61145651060060A5C5 = {
+						DevelopmentTeam = GY4T77MGR9;
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = 25160D1014564E810060A5C5 /* Build configuration list for PBXProject "RestKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2764,9 +2770,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GY4T77MGR9;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
@@ -2781,6 +2791,7 @@
 				INSTALL_PATH = "@rpath";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.restkit.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = RestKit;
 				SDKROOT = macosx;
@@ -2793,10 +2804,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GY4T77MGR9;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
@@ -2810,6 +2825,7 @@
 				INFOPLIST_FILE = "Resources/PLISTs/RestKitFramework-Info.plist";
 				INSTALL_PATH = "@rpath";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.restkit.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = RestKit;
 				SDKROOT = macosx;
