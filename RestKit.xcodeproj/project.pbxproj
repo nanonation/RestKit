@@ -2073,7 +2073,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = RestKit;
 				TargetAttributes = {
 					25160E61145651060060A5C5 = {
